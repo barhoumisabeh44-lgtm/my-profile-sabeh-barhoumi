@@ -1,0 +1,183 @@
+body {
+  background:#001BB7;
+  color:#FFC50F;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+h1 {
+  color:#FFC50F;
+  font-family:Courier;
+  font-size:55px;
+}
+h2 {
+  color:#FFC50F;
+  font-family:Helvetica;
+}
+a{
+  text-decoration:none;
+  color:#3E5F44;
+}
+a:hover{
+  color:#004030;
+}
+.img-circle { 
+  border-radius: 50%
+}
+.shadowed{
+  box-shadow:5px 5px 3px black;
+}
+#leader {
+  border: 3.9px solid black;
+}
+.text-center {
+  text-align: center;
+}
+
+
+.container{
+  width:700px;
+  margin:40px auto;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white{
+  background:white;
+  padding:40px;
+  margin:20px 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+  border-radius:70px;
+  text_align:center;
+}
+.btn-green {
+  background-color:#black;
+  color:white;
+  padding:15px 20px;
+  border-radius:4px;
+}
+
+.btn-green:hover {
+  background-color: black;
+  color: white;
+}
+.list-inline {
+  liste-style:none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding 10px;
+}
+.list-inline i {
+  font-size:50px;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.social {
+  display: flex;         
+  justify-content: center;
+  gap: 20px; 
+}
+
+.social li a {
+  font-size: 28px;
+  color: #2f5d3a;
+  text-decoration: none;
+}
+
+.social a {
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  transform: scale(1.3);
+}
+
+
+
+
+.le-wagon {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 2px solid #2f5d3a;   
+  border-radius: 25px;         
+  color: #2f5d3a;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.le-wagon:hover {
+  background-color: #2f5d3a;  
+  color: white;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background-color: #2f5d3a; 
+  color: white;              
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #000; 
+  color: white;
+}
+
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;        
+  height: 50px;       
+  border: 2px solid #2f5d3a;  
+  border-radius: 50%;          
+  color: #2f5d3a;
+  font-size: 24px;             
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
